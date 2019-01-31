@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Task4</title>
+		
+		<link rel="stylesheet" href="styles.css">
+		
+		
+	</head>
+	<body>
+		<script type="text/javascript" src="data.json"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="HDCharts/Bar_3D/BarChart-min.js"></script>
+		<script type="text/javascript" src="HDCharts/Pie/PieChart-min.js"></script>
+		<script type="text/javascript" src="HDCharts/Trend/TrendChart-min.js"></script>
+			
+		<div id="home" style='width: 800px; height: 600px;'>
+		</div>
+		<div class="btn">
+			<button onclick="javascript.showBarChart()">Bar</button>
+			<button onclick="javascript.showPieChart()">Pie</button>
+			<button onclick="javascript.showLineChart()">Line</button>
+			<button onclick="javascript.showBarChart('all_Years')">all Years-Bar</button>
+			<button onclick="javascript.showLineChart('all_Years')">all Years-Line</button>
+		</div>
+	</body>
+</html>

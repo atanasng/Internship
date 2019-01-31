@@ -1,0 +1,17 @@
+#home, #top {
+	display: flex;
+	flex-direction: column;
+}
+
+input, select, textarea, button, #table-section {
+	margin: 5px;
+}
+
+button {
+	display: block;
+}
+
+
+table, th, td {
+	border: 1px solid black;
+}

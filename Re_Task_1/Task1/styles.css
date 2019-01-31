@@ -1,0 +1,169 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+	color: #646464;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header {
+	display: flex;
+  f	lex-direction: row;
+}
+
+.sidebar {
+	width: 201px;
+	display: flex;
+	flex-direction: column;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("images/logo_bg.jpg");
+	background-size: contain;
+	width: inherit;
+	height: 101px;
+}
+
+.navigation ul {
+	list-style-type: none;
+}
+
+.navigation li {
+	background-image: url("images/left_menu.jpg");
+	height: 31px;
+}
+
+.navigation li a {
+	line-height: 31px;
+	padding-left: 17px;
+	font-family: Verdana;
+	color: #FEDA25;
+}
+
+.masthead {
+	display: flex;
+	flex-direction: column;
+}
+
+.banner {
+	height: 255px;
+}
+.banner_img{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    height: 251px;
+}
+
+.search {
+	background-color: #333333;
+	height: calc(287px - 255px); /* masthead - banner */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.search a {
+	font-family: "Verdana";
+	color: #FF9933;
+	font-size: 13px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.bar form {
+	width: 210px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+}
+
+.sidebar-2 {
+	background-color: #EFEFEF;	
+    width: 201px;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+}
+
+.sidebar-2 h5 {
+	text-decoration: underline;
+}
+
+.sidebar-2 span, .map {
+	padding: 10px;
+}
+
+.main-content {
+	padding: 5px;
+	width: 545px;
+}
+
+.content a{
+	color: blue;
+}
+
+.top-content {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+.welcome-message {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 10px 0 10px 0;
+}
+
+.welcome-image, .welcome-text {
+	padding: 2px;
+}
+
+.bottom-content {
+	display: flex;
+	flex-direction: row;
+	padding: 0 5px 0 5px;
+}
+
+.services-message {
+	display: flex;
+	flex-direction: column;
+	flex: 3;
+    margin-right: 5px;
+}
+
+.services-top-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.special-offer-message {
+	display: flex;
+	flex-direction: column;
+	flex: 2;
+    margin-left: 5px;
+}
+
+.footer {
+	width: 758px;
+	background-color: #FEDA25;
+	font-size: 13px;
+	border-top: solid #FF9900;
+	border-top-width: 3px;
+	padding: 10px 0 10px 0;
+}
